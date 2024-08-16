@@ -1,0 +1,67 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    height: calc(100vh - 50px);
+    width: auto;
+}
+.contact-sub{
+    background-color: rgb(65, 117, 109);
+    /* background-color: bisque; */
+    padding: 50px;
+    border-radius: 20px;
+}
+.heading{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.fields{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    outline: none;
+    width: 250px;
+  
+}
+.fields>label{
+    outline: none;
+    font-size: 20px;
+    color: white;
+
+ 
+    
+    
+}
+.fields>input{
+padding: 10px;
+outline: none;
+font-size: 20px;
+border: none;
+outline: none;
+border-bottom: 2px solid black;
+
+
+}
+.fields>textarea{
+    width: 250px;
+    height: 100px;
+    border: none;
+}
+.text{
+    height: 40px;
+    width: 200px;
+}
+.btn{
+    
+    text-align: center;
+    background-color: cadetblue;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    border: none;
+   }
